@@ -14,8 +14,11 @@ namespace GitTest_RE
         {
             this.name = name;
         }
-        
-        
+        protected virtual void setCharURL(string name)
+        {
+            this.charURL = name;
+        }
+
         public string getName()
         {
             return name;
