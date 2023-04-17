@@ -9,13 +9,14 @@ namespace GitTest_RE.Item
     internal class Item
     {
         // 아이템 생성
+        string name;
         protected Item()
-        {
-
+        { 
+            this
         }
-        protected void UseItem()
+        protected void UseItem(string name)
         {
-            Console.WriteLine("아이템을 사용했습니다.");
+            Console.WriteLine($"{name}을 사용했습니다.");
         }
     }
 }

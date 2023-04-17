@@ -8,5 +8,9 @@ namespace GitTest_RE.Item.WaterItem
 {
     internal interface Isubmerge
     {
+        void Submerge()
+        {
+
+        }
     }
 }

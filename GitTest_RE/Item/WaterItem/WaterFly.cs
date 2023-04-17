@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GitTest_RE.Item.WaterItem
 {
-    internal class WaterFly : Item
+    internal class WaterFly : WaterItem
     {
         private WaterFly()
         {
