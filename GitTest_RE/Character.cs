@@ -8,5 +8,8 @@ namespace GitTest_RE
 {
     internal class Character
     {
+        protected string name;
+        
+
     }
 }
