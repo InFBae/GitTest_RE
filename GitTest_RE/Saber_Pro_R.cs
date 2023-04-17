@@ -15,6 +15,7 @@ namespace GitTest_RE
             cornering = 975;
             boosterTime = 910;
             boosterCharge = 660;
+            name = "세이버 Pro-R";
         }
 
     }
