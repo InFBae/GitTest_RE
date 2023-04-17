@@ -10,6 +10,10 @@ namespace GitTest_RE
     {
         protected string name;
         
+        protected virtual void setName()
+        {
+
+        }
 
     }
 }
