@@ -8,5 +8,7 @@ namespace GitTest_RE
 {
     internal interface IItemUseable
     {
+        
+
     }
 }

@@ -12,7 +12,7 @@ namespace GitTest_RE
             setName("Uni");
             setCharFileURL("C:\\Users\\VR\\Desktop");
         }
-       
+        
 
     }
 }
