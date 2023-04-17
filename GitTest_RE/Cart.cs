@@ -8,10 +8,10 @@ namespace GitTest_RE
 {
     public abstract class Cart
     {
-        public abstract int drift { get; set; }
-        public abstract int acceleration { get; set; }
-        public abstract int cornering { get; set; }
-        public abstract int boosterTime { get; set; }
-        public abstract int boosterCharge { get; set; }
+        private int drift { get; set; }
+        private int acceleration { get; set; }
+        private int cornering { get; set; }
+        private int boosterTime { get; set; }
+        private int boosterCharge { get; set; }
     }
 }
