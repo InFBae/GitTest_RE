@@ -8,14 +8,11 @@ namespace GitTest_RE.Item.WaterItem
 {
     internal class WaterBoom : WaterItem
     {
-        private WaterBoom()
-        {
+        string name = "물폭탄";
 
-        }
-
-        private void UseWaterBoom()
+        public void UseWaterBoom()
         {
-            UseItem();
+            UseItem(name);
             Console.WriteLine("물폭탄 던지기");
         }
     }
