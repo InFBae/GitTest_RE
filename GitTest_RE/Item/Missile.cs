@@ -8,12 +8,9 @@ namespace GitTest_RE.Item
 {
     internal class Missile : Item
     {
-        private Missile() { }
-
-        public void UseMissile()
-        {
-            UseItem();
-            Console.WriteLine("미사일 발사");
+        public Missile() {
+            name = "미사일";
         }
+
     }
 }

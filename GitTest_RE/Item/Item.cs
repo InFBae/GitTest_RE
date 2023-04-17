@@ -9,10 +9,11 @@ namespace GitTest_RE.Item
     internal class Item
     {
         // 아이템 생성
-        string name;
-        protected Item()
-        { 
-            this
+        private String name { get; set; }
+
+        public Item()
+        {
+            name = "아이템";
         }
         protected void UseItem(string name)
         {
