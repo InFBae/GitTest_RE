@@ -6,9 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="D:\vr\0417\or\Program.cs" Link="Program.cs" />
-  </ItemGroup>
-
 </Project>

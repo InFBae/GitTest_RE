@@ -6,12 +6,18 @@ using System.Threading.Tasks;
 
 namespace GitTest_RE
 {
-    public abstract class Cart
+    public abstract class Cart : IHitable
     {
-        private int drift { get; set; }
-        private int acceleration { get; set; }
-        private int cornering { get; set; }
-        private int boosterTime { get; set; }
-        private int boosterCharge { get; set; }
+        protected int drift;
+        protected int acceleration;
+        protected int cornering;
+        protected int boosterTime;
+        protected int boosterCharge;
+        protected string name;
+
+        public void HitCart(Cart cart)
+        {
+            Console.WriteLine("{0} 과 {1}이 부딫혔습니다.", name, cart.name);
+        }
     }
 }
