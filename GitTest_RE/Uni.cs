@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace GitTest_RE
 {
-    internal class Uni
+    internal class Uni : Character
     {
+        public Uni() {
+            setName("Uni");
+            setCharFileURL("C:\\Users\\VR\\Desktop");
+        }
+       
+
     }
 }
