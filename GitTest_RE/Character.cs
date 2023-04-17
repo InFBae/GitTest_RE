@@ -15,5 +15,9 @@ namespace GitTest_RE
 
         }
 
+        public string getName()
+        {
+            return name;
+        }
     }
 }
