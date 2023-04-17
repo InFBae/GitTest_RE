@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitTest_RE.Item.WaterItem
+namespace GitTest_RE.Map
 {
-    internal interface Isubmerge
+    internal class China : Map
     {
-        void Submerge()
-        {
-
-        }
+        public China() { Name = "차이나"; }
     }
 }

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace GitTest_RE.Item
 {
-    internal class Booster : Item
+    internal class Banana : Item
     {
-        string name = "부스터";
+        string name = "바나나";
 
-        public void UseBooster()
+        public void UseBanana()
         {
             UseItem(name);
-            Console.WriteLine("부스터 사용");
+            Console.WriteLine("바나나 던지기");
         }
     }
 }

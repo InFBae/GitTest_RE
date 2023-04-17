@@ -17,6 +17,5 @@ namespace GitTest_RE
             boosterCharge = 660;
             name = "세이버 Pro-R";
         }
-
     }
 }
