@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitTest_RE
+namespace GitTest_RE.Item.WaterItem
 {
-    internal class Item
+    internal class WaterItem
     {
-        // 아이템 생성
     }
 }
