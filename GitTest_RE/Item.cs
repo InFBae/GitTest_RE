@@ -8,5 +8,6 @@ namespace GitTest_RE
 {
     internal class Item
     {
+        // 아이템 생성
     }
 }
