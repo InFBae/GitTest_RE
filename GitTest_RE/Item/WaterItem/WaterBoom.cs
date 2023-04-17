@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitTest_RE.Item
+namespace GitTest_RE.Item.WaterItem
 {
     internal class WaterBoom : Item
     {
-        private WaterBoom() 
-        { 
+        private WaterBoom()
+        {
 
         }
 
