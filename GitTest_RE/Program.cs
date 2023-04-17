@@ -15,7 +15,6 @@ namespace GitTest_RE
             map.OpenMap();
 
             Character character = new Character();
-            Item item = new Item();
 
         }
     }
