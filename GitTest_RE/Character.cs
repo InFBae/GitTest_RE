@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GitTest_RE
 {
-    internal class Character
+    internal class Character : IItemUseable
     {
         protected string name;
         protected string charFileURL;
