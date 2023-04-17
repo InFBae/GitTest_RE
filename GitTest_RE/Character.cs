@@ -9,12 +9,13 @@ namespace GitTest_RE
     internal class Character
     {
         protected string name;
-        
-        protected virtual void setName()
+        protected string charURL;
+        protected virtual void setName(string name)
         {
-
+            this.name = name;
         }
-
+        
+        
         public string getName()
         {
             return name;
