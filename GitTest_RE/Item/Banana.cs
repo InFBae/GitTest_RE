@@ -8,11 +8,11 @@ namespace GitTest_RE.Item
 {
     internal class Banana : Item
     {
-        private Banana() { }
+        string name = "바나나";
 
         public void UseBanana()
         {
-            UseItem();
+            UseItem(name);
             Console.WriteLine("바나나 던지기");
         }
     }

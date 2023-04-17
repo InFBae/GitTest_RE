@@ -8,11 +8,11 @@ namespace GitTest_RE.Item
 {
     internal class Shield : Item
     {
-        private Shield() { }
+        string name = "실드";
 
         public void UseShield()
         {
-            UseItem();
+            UseItem(name);
             Console.WriteLine("실드를 사용");
         }
     }

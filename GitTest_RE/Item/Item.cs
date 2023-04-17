@@ -15,7 +15,7 @@ namespace GitTest_RE.Item
         {
             name = "아이템";
         }
-        protected void UseItem(string name)
+        public void UseItem(string name)
         {
             Console.WriteLine($"{name}을 사용했습니다.");
         }

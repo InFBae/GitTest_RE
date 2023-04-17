@@ -8,11 +8,11 @@ namespace GitTest_RE.Item
 {
     internal class Booster : Item
     {
-        private Booster() { }
+        string name = "부스터";
 
         public void UseBooster()
         {
-            UseItem();
+            UseItem(name);
             Console.WriteLine("부스터 사용");
         }
     }
