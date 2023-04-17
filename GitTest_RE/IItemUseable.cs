@@ -8,6 +8,6 @@ namespace GitTest_RE
 {
     internal interface IItemUseable
     {
-        protected void UseItem();
+        public void UseItem();
     }
 }

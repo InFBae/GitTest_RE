@@ -19,6 +19,10 @@ namespace GitTest_RE
         {
             this.charFileURL = name;
         }
+        protected void UseItem()
+        {
+
+        }
 
         public string getName()
         {
